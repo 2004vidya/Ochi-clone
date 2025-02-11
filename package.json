@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://2004vidya.github.io/Ochi-clone/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
