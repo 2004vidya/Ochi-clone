@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: f1;
+    src: url("./assets//FoundersGroteskXCond-Bold.otf");
+    
+}
+
+@font-face {
+    font-family: f2;
+    src: url("./assets/FoundersGroteskXCond-Lt.otf");
+}
+
