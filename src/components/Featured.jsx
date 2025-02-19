@@ -107,7 +107,7 @@ const Featured = () => {
       {isMobile ? (
         // MOBILE VIEW
 
-        <div className="w-full py-20">
+        <div className="w-full py-10">
           <div className="w-full px-4 border-b-2 border-zinc-700 pb-10">
             <h1 className='text-4xl font-["Neue_Montreal"]  tracking-tight'>
               Featured Projects
@@ -127,7 +127,7 @@ const Featured = () => {
               >
                 <h1
                   style={{ fontFamily: "f1" }}
-                  className=" font-extrabold flex overflow-hidden  text-[#cdea68]  absolute  pt-4   -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl leading-none "
+                  className="font-extrabold flex overflow-hidden text-[#cdea68] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl md:text-9xl leading-none w-full justify-center "
                 >
                   {"FYDE".split("").map((item, index) => (
                     <motion.span
@@ -192,7 +192,7 @@ const Featured = () => {
               >
                 <h1
                   style={{ fontFamily: "f1" }}
-                  className=" flex overflow-hidden font-extrabold  text-[#cdea68]  absolute pt-4 pr-8 right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl leading-none "
+                  className="font-extrabold flex overflow-hidden text-[#cdea68] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl md:text-9xl leading-none w-full justify-center "
                 >
                   {"VISE".split("").map((item, index) => (
                     <motion.span
@@ -217,7 +217,7 @@ const Featured = () => {
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">Audit</span>
+                  <span className="btn__text">agency </span>
                 </a>
               </div>
               <div className="mr-4 mb-10 border-1 px-2 rounded-full">
@@ -225,25 +225,10 @@ const Featured = () => {
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">copywriting</span>
+                  <span className="btn__text">company presentation</span>
                 </a>
               </div>
-              <div className="mr-4 mb-4 border-1 px-2 rounded-full">
-                <a
-                  className="uppercase"
-                  href="https://ochi.design/presentation-design-agency-services/"
-                >
-                  <span className="btn__text">sales deck</span>
-                </a>
-              </div>
-              <div className=" ml-4 mr-4 mb-4 -mt-4 border-1 px-2 rounded-full">
-                <a
-                  className="uppercase"
-                  href="https://ochi.design/presentation-design-agency-services/"
-                >
-                  <span className="btn__text">slides design</span>
-                </a>
-              </div>
+              
             </div>
           </div>
           {/* section-2  */}
@@ -261,7 +246,7 @@ const Featured = () => {
               >
                 <h1
                   style={{ fontFamily: "f1" }}
-                  className=" font-extrabold flex overflow-hidden  text-[#cdea68]  absolute pl-8 pt-4 left-full  -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl leading-none "
+                  className="font-extrabold flex overflow-hidden text-[#cdea68] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl md:text-9xl leading-none w-full justify-center "
                 >
                   {"TRAWA".split("").map((item, index) => (
                     <motion.span
@@ -282,38 +267,31 @@ const Featured = () => {
               
             </div>
             <div className="flex flex-wrap -mt-2 items-start">
-              <div className="ml-4 mr-4 mb-4 border-1 px-2 rounded-full">
+              <div className="ml-2 mr-2  mb-4 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">Audit</span>
+                  <span className="btn__text">brand identity</span>
                 </a>
               </div>
-              <div className="mr-4 mb-10 border-1 px-2 rounded-full">
+              <div className=" ml-2 mr-2 mb-10 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">copywriting</span>
+                  <span className="btn__text">design research </span>
                 </a>
               </div>
-              <div className="mr-4 mb-4 border-1 px-2 rounded-full">
+              <div className="ml-2 -mt-4 mr-4 mb-4 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">sales deck</span>
+                  <span className="btn__text">investor deck </span>
                 </a>
               </div>
-              <div className=" ml-4 mr-4 mb-4 -mt-4 border-1 px-2 rounded-full">
-                <a
-                  className="uppercase"
-                  href="https://ochi.design/presentation-design-agency-services/"
-                >
-                  <span className="btn__text">slides design</span>
-                </a>
-              </div>
+              
             </div>
             <div className="w-[85vw] mx-auto ">
               <div className="flex items-center ">
@@ -327,7 +305,7 @@ const Featured = () => {
               >
                 <h1
                   style={{ fontFamily: "f1" }}
-                  className=" flex overflow-hidden font-extrabold  text-[#cdea68]  absolute pt-4 pr-8 right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl leading-none "
+                  className="font-extrabold flex overflow-hidden text-[#cdea68] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-7xl md:text-9xl leading-none w-full justify-center"
                 >
                   {"BLACK BOOK".split("").map((item, index) => (
                     <motion.span
@@ -348,38 +326,31 @@ const Featured = () => {
               
             </div>
             <div className="flex flex-wrap -mt-2 items-start">
-              <div className="ml-4 mr-4 mb-4 border-1 px-2 rounded-full">
+              <div className="ml-2 mr-2  mb-4 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">Audit</span>
+                  <span className="btn__text">brand identity</span>
                 </a>
               </div>
-              <div className="mr-4 mb-10 border-1 px-2 rounded-full">
+              <div className=" ml-2 mr-2 mb-10 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">copywriting</span>
+                  <span className="btn__text">design research </span>
                 </a>
               </div>
-              <div className="mr-4 mb-4 border-1 px-2 rounded-full">
+              <div className="ml-2 -mt-4 mr-4 mb-4 border-1 px-2 rounded-full">
                 <a
                   className="uppercase"
                   href="https://ochi.design/presentation-design-agency-services/"
                 >
-                  <span className="btn__text">sales deck</span>
+                  <span className="btn__text">investor deck </span>
                 </a>
               </div>
-              <div className=" ml-4 mr-4 mb-4 -mt-4 border-1 px-2 rounded-full">
-                <a
-                  className="uppercase"
-                  href="https://ochi.design/presentation-design-agency-services/"
-                >
-                  <span className="btn__text">slides design</span>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
