@@ -23,15 +23,15 @@ const Footer = () => {
           style={{ fontFamily: "f1" }}
           className="flex flex-col   md:flex-row w-full h-auto p-6 md:p-30"
         >
-          <div className="font-extralight flex flex-col justify-between w-full md:w-1/2 mb-8 md:mb-0">
+          <div className="font-extralight flex flex-col justify-between w-full  md:w-1/2 mb-8 md:mb-0">
             <div className="heading flex flex-col" >
-              <h1 className="text-[20vw]  uppercase leading-none -mb-4">
+              <h1 className="text-[18vw]  uppercase leading-none -mb-4">
                 Eye-
               </h1>
-              <h1 className="text-[20vw]  uppercase leading-none -mb-4">
+              <h1 className="text-[18vw]  uppercase leading-none -mb-4">
                 Opening
               </h1>
-              <h1 className="text-[20vw] uppercase leading-none -mb-4">
+              <h1 className="text-[18vw] uppercase leading-none -mb-4">
               Presentations
             </h1>
             </div>
